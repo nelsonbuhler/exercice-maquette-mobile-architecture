@@ -48,15 +48,18 @@ div a {
 h1 {
   font-size: 30px;
   font-weight: 400;
+  padding-left: 7px;
 }
 
 .subtitle {
   width: 330px;
+  padding-left: 7px;
 }
 
 header div {
   line-height: normal;
   font-size: 12px;
+  padding-left: 9px;
 }
 
 header h2 {
@@ -67,11 +70,16 @@ header h2 {
 main p {
   width: 330px;
   line-height: 26px;
+  padding-left: 7px;
+}
+
+main div {
+  display: flex;
+  justify-content: center;
 }
 
 main a {
   width: 88px;
-  text-align: center;
   font-size: 12px;
 }
 
@@ -79,6 +87,7 @@ footer {
   background-color: black;
   color: white;
   font-size: 12px;
+  padding-left: 7px;
 }
 
 footer h2 {
